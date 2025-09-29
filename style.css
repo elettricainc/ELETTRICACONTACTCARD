@@ -1,0 +1,27 @@
+/* ELETTRICA contact page styles — black on white, card-style */
+:root{
+  --maxw:720px;
+  --bg:#ffffff;
+  --card:#ffffff;
+  --muted:#666;
+  --fg:#000;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);font-family:Inter, "Helvetica Neue", Arial, sans-serif;color:var(--fg)}
+.wrap{max-width:var(--maxw);margin:40px auto;padding:24px}
+.header{text-align:center;margin-bottom:18px}
+.logo{max-width:75%;height:auto;display:inline-block}
+.card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 10px 30px rgba(0,0,0,0.06);text-align:center}
+.name{font-size:28px;margin:6px 0 4px;letter-spacing:0.2px}
+.role{margin:0 0 12px;color:var(--muted);font-size:16px}
+.contact-lines{display:block;margin-bottom:18px}
+.contact-lines .line{display:block;color:var(--fg);text-decoration:none;margin:6px 0;font-size:18px}
+.save-btn{display:inline-block;padding:14px 36px;border-radius:12px;background:#000;color:#fff;text-decoration:none;font-weight:600;box-shadow:0 8px 18px rgba(0,0,0,0.18);margin-top:8px}
+.socials{margin-top:18px;display:flex;gap:18px;justify-content:center;align-items:center}
+.icon{width:40px;height:40px;display:block;border-radius:8px}
+.footer{text-align:center;margin-top:18px;color:var(--muted);font-size:13px}
+@media (max-width:480px){
+  .wrap{padding:16px;margin:20px auto}
+  .name{font-size:24px}
+  .save-btn{width:80%;padding:12px 20px}
+}
