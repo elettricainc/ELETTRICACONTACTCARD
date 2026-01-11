@@ -25,10 +25,3 @@ html,body{height:100%;margin:0;background:var(--bg);font-family:Inter, "Helvetic
   .name{font-size:24px}
   .save-btn{width:80%;padding:12px 20px}
 }
-body {
-  background-color: black !important;
-}
-
-.logo {
-  border: 2px solid white !important;
-}
