@@ -28,4 +28,5 @@ html,body{height:100%;margin:0;background:var(--bg);font-family:Inter, "Helvetic
 body {
   background: url("images/your-image.jpg") no-repeat center center fixed;
   background-size: cover;
-}
+}body { background: #000; }
+.logo { border: none; }
