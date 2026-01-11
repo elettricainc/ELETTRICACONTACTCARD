@@ -25,3 +25,11 @@ html,body{height:100%;margin:0;background:var(--bg);font-family:Inter, "Helvetic
   .name{font-size:24px}
   .save-btn{width:80%;padding:12px 20px}
 }
+body {
+  background-color: black;
+}
+
+.logo {
+  border: 2px solid white; /* This adds a white border around your logo */
+  border-radius: 8px; /* Optional: rounds the corners of the border */
+}
