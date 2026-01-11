@@ -38,4 +38,22 @@ body {
   background-color: transparent !important;
 }
 important;
+}html {
+  background: #000 !important;
+}
+
+body {
+  background: #000 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 100vh;
+}
+
+/* iOS Safari safe-area fix */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: -1;
 }
