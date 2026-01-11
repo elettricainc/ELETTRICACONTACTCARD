@@ -30,3 +30,10 @@ body {
   background-size: cover;
 }body { background: #000; }
 .logo { border: none; }
+body {
+  background-color: black !important;
+}
+
+.wrap {
+  background-color: transparent !important;
+}
